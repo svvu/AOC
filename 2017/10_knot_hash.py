@@ -3,7 +3,6 @@
 import argparse
 from functools import reduce
 
-
 def cal_hash(data, hash_fun, times=1):
     """Calculate the hash value for the input"""
     hash_list = list(range(256))
